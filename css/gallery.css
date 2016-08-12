@@ -5,45 +5,26 @@ html {
     font-family: 'Philosopher', sans-serif;
 }
 
+/*Navbar begin*/
+
 #welcome{
   color: #ffffff;
   font-family: 'Pacifico', cursive;
   font-size: 5em;
 }
 
-#services-title{
-  text-align: center;
-  background-color: #f8f8f8;
-  padding-bottom: 55px;
-}
+.navbar {  border: none!important; }
 
-.navbar {
-   background-color: transparent;
-   background: transparent;
-   border-color: transparent;
-}
-
-.navbar.after-header{
-  background-color: black;
-  color: white;
+.navbar-default {
+  background-color:black;
+  padding: 25px 0;
   -webkit-box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
   -moz-box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
   box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
+  line-height:0px;
+  display: block;
 }
 
-.navbar-default.after-head .nav li a {
-  font-family: 'Philosopher', sans-serif;
-  text-transform: uppercase;
-  font-weight: 200;
-  letter-spacing: 1px;
-  color:  white;
-  font-size: 1.3em;
-}
-
-.navbar-default {
-  background-color: #222222;
-  border-color: transparent;
-}
 .navbar-default .navbar-brand {
   color: #C7C7C7;
   font-family: 'Pacifico', cursive;
@@ -62,7 +43,7 @@ html {
   border-color: #C7C7C7;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: white;
+  background-color: #ffffff;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
@@ -93,9 +74,10 @@ html {
   color: white;
   background-color: #C7C7C7;
 }
+
 @media (min-width: 768px) {
   .navbar-default {
-    background-color: transparent;
+    background-color: black;
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
@@ -118,111 +100,23 @@ html {
   .navbar-default.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
-   #welcome{
+    #welcome{
     font-size:2.5em;
   }
 }
 
-header {
-  background-image: url('img/header.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  text-align: center;
-  color: white;
-}
-header .intro-text {
-  padding-top: 100px;
-  padding-bottom: 50px;
-}
-header .intro-text .intro-lead-in {
-  font-family: 'Philosopher', sans-serif;
-  font-style: italic;
-  font-size: 22px;
-  line-height: 22px;
-  margin-bottom: 25px;
-}
-header .intro-text .intro-heading {
-  font-family: 'Philosopher', sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 50px;
-  margin-bottom: 25px;
-}
-@media (min-width: 768px) {
-  header .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
-  }
-  header .intro-text .intro-lead-in {
-    font-family: 'Philosopher', sans-serif;
-    font-style: italic;
-    font-size: 40px;
-    line-height: 40px;
-    margin-bottom: 25px;
-  }
-  header .intro-text .intro-heading {
-    font-family: 'Philosopher', sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 75px;
-    line-height: 75px;
-    margin-bottom: 50px;
-  }
+/*Navbar end*/
+
+.gallery-container{
+	padding-top:150px;
 }
 
-#button-anchor{
-  color:#000;
-  font-size:1.5em;
-  border:1px solid #fff;
-  border-radius:25px;
-  background-color:#fff;
-}
-.content-section-a {
-    padding: 50px 0;
-    background-color: #f8f8f8;
+.gallery-header{
+	text-align:center;
 }
 
-.content-section-b {
-    padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
-}
 
-.section-heading {
-    margin-bottom: 30px;
-}
-
-.section-heading-spacer {
-    float: left;
-    width: 200px;
-    border-top: 3px solid #e7e7e7;
-}
-
-.btn{
-  margin: auto;
-}
-
-#meet-button{
-  margin:auto;
-}
-
-.ready-info{
-  padding-bottom:20px;
-  margin-top: 100px;
-  font-family: 'Pacifico', cursive;
-}
-
-.img-responsive{
-  border-radius: 12px;
-  width: 500px;
-  height: 250px;
-}
+/*Footer*/
 
 footer {
   margin-top: 25px;
@@ -248,6 +142,7 @@ li.phone{
   width:100%;
   font-size: 30px;
 }
+
 ul.social-buttons li a {
   display: block;
   background-color: #222222;
@@ -270,34 +165,10 @@ ul.social-buttons li a:active {
   background-color: #C7C7C7;
 }
 
-
 @media (max-width: 767px) {
 
   #welcome{
     font-size:1.5em;
   }
 
-    .navbar-default {
-    background-color: transparent;
-  }
-
-  h1{
-    font-size:2em;
-  }
-
-  h2{
-    font-size:1.5em;
-  }
-
-  h3{
-    font-size: 1em;
-  }
-
-  h4, .phone{
-    font-size:.75em;
-  }
-
-  p{
-    font-size:.5em;
-  }
 }
