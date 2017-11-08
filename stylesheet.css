@@ -305,4 +305,17 @@ ul.social-buttons li a:active {
   p{
     font-size:.5em;
   }
+
+  #logo{
+  padding:0px;
+  display:none;
+}
+
+.logo-large{
+  display:none;
+}
+
+.logo{
+  display:block;
+}
 }

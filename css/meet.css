@@ -90,9 +90,10 @@ html {
 
 
 .carousel {
-    height: 80%;
-    padding-top:50px;
+    height: 85%;
+    
 }
+
 
 .item,
 .active,
@@ -108,6 +109,7 @@ html {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    padding-top:150px;
 }
 
 .bios{
