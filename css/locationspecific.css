@@ -2,19 +2,19 @@ body,
 html {
     width: 100%;
     height: 100%;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*Navbar begin*/
 
-#welcome{
-  color: #ffffff;
-  font-family: 'Pacifico', cursive;
-  font-size: 5em;
+#logo{
+  padding:0px;
 }
 
+.navbar {  border: none!important; }
+
 .navbar-default {
-  background-color:black;
+  background-color:#DCDCDC;
   padding: 25px 0;
   -webkit-box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
   -moz-box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
@@ -23,59 +23,47 @@ html {
   display: block;
 }
 
-.navbar-default .navbar-brand {
-  color: #C7C7C7;
-  font-family: 'Pacifico', cursive;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:active,
-.navbar-default .navbar-brand.active {
-  color: #C7C7C7;
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus{
+  background-color:transparent; !important;
+  color:black;
+  text-decoration: overline;
+
 }
 .navbar-default .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
+
 .navbar-default .navbar-toggle {
   background-color: #C7C7C7;
-  border-color: #fed136;
+  border-color: #C7C7C7;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #C7C7C7;
+  background-color: #ffffff;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #C7C7C7;
 }
 .navbar-default .nav li a {
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Lato', sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 200;
   letter-spacing: 1px;
-  color: white;
-  font-size: 1.3em;
+  color:  black;
+  font-size: 1em;
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-  color: white;
-  border: 1px solid white;
-  border-radius: 15px;
-  font-size: 1.5em;
+  color:black;
+  text-decoration: underline;
 }
-.navbar-default .navbar-nav > .active > a {
-  border-radius: 0;
-  color: white;
-  background-color: #C7C7C7;
-}
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: white;
-  background-color: #C7C7C7;
-}
+
 
 @media (min-width: 768px) {
   .navbar-default {
-    background-color: black;
+    background-color: #DCDCDC;
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
@@ -88,9 +76,7 @@ html {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
-  .navbar-default .navbar-nav > .active > a {
-    border-radius: 3px;
-  }
+
   .navbar-default.navbar-shrink {
     background-color: #222222;
     padding: 10px 0;
@@ -99,6 +85,17 @@ html {
     font-size: 1.5em;
   }
 }
+
+.backtolocations{
+  font-family: 'Lato',sans-serif;
+  color:black;
+}
+
+.backtolocations:hover{
+  color:black;
+  text-decoration: underline;
+}
+
 .content-section-a {
     background-color: #f8f8f8;
 }
@@ -135,7 +132,6 @@ font-size: 4em;
 }
 
 #title a{
-  font-family: 'Lily Script One', cursive;
   font-size: 3em;
   color: #006cad;
 }
@@ -146,11 +142,10 @@ font-size: 4em;
 
 .address{
   font-size: 2em;
-  font-family: 'Lily Script One', cursive;
+  font-family: 'Lato', sans-serif;
 }
 
 #welcome-state span{
-  font-family: 'Merriweather', serif;
   color: #006cad;
 }
 
@@ -160,6 +155,8 @@ font-size: 4em;
 
 .wind-dir, .directions{
   font-size: 1.5em;
+  font-family: 'Lato', sans-serif;
+
 }
 
 #weko-map, #warren-map, #silver-map, #tiscornia-map, #southh-map, #casino-map, #miller-map, #lakes-map, #mcb-map, #porter-map, #montrose-map, #zion-map, #wauk-map{
@@ -172,16 +169,18 @@ footer {
   margin-top: 25px;
   text-align: center;
   border-top: 5px double black;
+  background-color:#DCDCDC;
 }
 
-footer span.copyright {
-  line-height: 40px;
-  font-family: 'Pacifico', cursive;
-  text-transform: uppercase;
-  text-transform: none;
-  font-size: small;
-  padding: 1em;
+.book-now{
+  font-size:30px;
 }
+
+.kiteboading-locations-footer{
+  font-size:20px;
+  text-transform: uppercase;
+}
+
 
 ul.social-buttons {
   margin-bottom: 0;
