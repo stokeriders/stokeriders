@@ -7,6 +7,15 @@ html {
 
 #logo{
   padding:0px;
+  display:none;
+}
+
+.logo{
+  display:none;
+}
+
+.logo-large{
+  display:block;
 }
 
 #services-title{
