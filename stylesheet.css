@@ -47,7 +47,7 @@ html {
 }
 
 .navbar-default {
-  background-color: #222222;
+  background-color: #DCDCDC;
   border-color: transparent;
 }
 
@@ -285,7 +285,7 @@ ul.social-buttons li a:active {
 
 
     .navbar-default {
-    background-color: transparent;
+    background-color: #DCDCDC;
   }
 
   h1{
