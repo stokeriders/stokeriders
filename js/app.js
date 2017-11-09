@@ -21,4 +21,11 @@ $( document ).ready(function() {
      $(".logo").css("display", "none");
    }
  });
+
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+   $(".logo-large").css("display", "none");
+   $(".logo").css("display", "block");
+}
+
+
 });

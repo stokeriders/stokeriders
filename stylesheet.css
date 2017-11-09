@@ -286,6 +286,10 @@ ul.social-buttons li a:active {
 
     .navbar-default {
     background-color: #DCDCDC;
+    -webkit-box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
+  -moz-box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
+  box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
+}
   }
 
   h1{
