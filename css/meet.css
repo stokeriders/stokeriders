@@ -6,6 +6,8 @@ html {
     overflow-x:hidden
 }
 
+.site-wrapper{overflow-x:hidden}
+
 /*Navbar begin*/
 
 #logo{
