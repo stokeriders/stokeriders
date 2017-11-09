@@ -292,6 +292,10 @@ ul.social-buttons li a:active {
 }
   }
 
+  .logo{
+    display:block;
+  }
+
   h1{
     font-size:2em;
   }
