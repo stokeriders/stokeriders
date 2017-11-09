@@ -1,4 +1,5 @@
 $( document ).ready(function() {
+  $(".logo-large").css("display", "block");
 
 	$(".serve").on("click", function(){
 		$("#serivce-link").addClass("active")
