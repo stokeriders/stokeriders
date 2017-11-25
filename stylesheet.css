@@ -5,10 +5,26 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
+.navbar-default .nav li a.book-now-nav{
+  border:2px solid black;
+  border-radius: 13px;
+  background-color:white; 
+  color:black;
+  padding:12px;
+}
+
 
 #logo{
   padding:0px;
   display:none;
+}
+
+.navbar-left{
+  padding-left:20px;
+}
+
+.navbar-right{
+  padding-right:20px;
 }
 
 .logo{
