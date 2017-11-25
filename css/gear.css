@@ -12,6 +12,14 @@ html {
   padding:0px;
 }
 
+.navbar-default .nav li a.book-now-nav{
+  border:2px solid black;
+  border-radius: 13px;
+  background-color:white; 
+  color:black;
+  padding:12px;
+}
+
 .navbar {  border: none!important; }
 
 .navbar-default {
