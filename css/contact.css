@@ -119,6 +119,7 @@ html {
 }
 
 .fb-page{
+  display: none;
  visibility: hidden;
 }
 
@@ -194,5 +195,6 @@ ul.social-buttons li a:active {
 }
 
 #fb-bigpage{
+  display: none;
   visibility: hidden;
 }
