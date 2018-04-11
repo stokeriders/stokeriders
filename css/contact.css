@@ -118,15 +118,6 @@ html {
   text-align: center;
 }
 
-.fb-page{
-  display: none;
- visibility: hidden;
-}
-
-#fb-bigpage{
-  visibility: visible;
-}
-
 
 /*Footer*/
 
@@ -188,13 +179,4 @@ ul.social-buttons li a:active {
 
   .contactmethods{
   font-size:1.5em;
-}
-
-.fb-page{
-  visibility: visible;
-}
-
-#fb-bigpage{
-  display: none;
-  visibility: hidden;
 }
