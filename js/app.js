@@ -1,5 +1,6 @@
 $( document ).ready(function() {
-  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  if (!( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )) {
+
 
    $(".serve").on("click", function(){
     $("#serivce-link").addClass("active")
@@ -22,6 +23,10 @@ $( document ).ready(function() {
      $(".logo").css("display", "none");
    }
  });
+
+ } else {
+
+  $(".logo").css("display", "block");
 
  }
 
