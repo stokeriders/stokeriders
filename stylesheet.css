@@ -1,8 +1,8 @@
 body,
 html {
-    width: 100%;
-    height: 100%;
-    font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-default .nav li a.book-now-nav{
@@ -42,9 +42,9 @@ html {
 }
 
 .navbar {
-   background-color: transparent;
-   background: transparent;
-   border-color: transparent;
+ background-color: transparent;
+ background: transparent;
+ border-color: transparent;
 }
 
 .navbar.after-header{
@@ -135,7 +135,7 @@ html {
   .navbar-default.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
-   #welcome{
+  #welcome{
     font-size:2.5em;
   }
 }
@@ -202,14 +202,14 @@ header .intro-text .intro-heading {
   font-family:'Lato', sans-serif;
 }
 .content-section-a {
-    padding: 50px 0;
-    background-color: #f8f8f8;
+  padding: 50px 0;
+  background-color: #f8f8f8;
 }
 
 .content-section-b {
-    padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 .lead{
@@ -217,16 +217,16 @@ header .intro-text .intro-heading {
 }
 
 .section-heading {
-    margin-bottom: 30px;
-    font-size:30px;
+  margin-bottom: 30px;
+  font-size:30px;
 }
 
 
 
 .section-heading-spacer {
-    float: left;
-    width: 200px;
-    border-top: 3px solid #e7e7e7;
+  float: left;
+  width: 200px;
+  border-top: 3px solid #e7e7e7;
 }
 
 .btn{
@@ -300,13 +300,13 @@ ul.social-buttons li a:active {
 
 @media (max-width: 767px) {
 
-    .navbar-default {
+  .navbar-default {
     background-color: #DCDCDC;
     -webkit-box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
-  -moz-box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
-  box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
-}
+    -moz-box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
+    box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
   }
+  
 
   h1{
     font-size:2em;
@@ -327,12 +327,13 @@ ul.social-buttons li a:active {
   p{
     font-size:.5em;
   }
-  .logo{
-  display:block;
-}
 
-.logo-large{
-  display:none;
-}
+  .logo{
+    display:block;
+  }
+
+  .logo-large{
+    display:none !important;
+  }
 
 }
