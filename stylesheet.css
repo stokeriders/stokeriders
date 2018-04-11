@@ -327,5 +327,12 @@ ul.social-buttons li a:active {
   p{
     font-size:.5em;
   }
+  .logo{
+  display:block;
+}
+
+.logo-large{
+  display:none;
+}
 
 }
