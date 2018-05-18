@@ -1,0 +1,163 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/*Navbar begin*/
+
+#logo{
+  padding:0px;
+}
+
+.navbar-default .nav li a.book-now-nav{
+  border:2px solid black;
+  border-radius: 13px;
+  background-color:white; 
+  color:black;
+  padding:12px;
+}
+
+.navbar {  border: none!important; }
+
+.navbar-default {
+  background-color:#DCDCDC;
+  padding: 25px 0;
+  -webkit-box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
+  -moz-box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
+  box-shadow: -1px 9px 18px 3px rgba(105,105,105,0.84);
+  line-height:0px;
+  display: block;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus{
+  background-color:transparent; !important;
+  color:black;
+  text-decoration: overline;
+
+}
+.navbar-default .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+
+.navbar-default .navbar-toggle {
+  background-color: #C7C7C7;
+  border-color: #C7C7C7;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #C7C7C7;
+}
+.navbar-default .nav li a {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 1px;
+  color:  black;
+  font-size: 1em;
+}
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+  color:black;
+  text-decoration: underline;
+}
+
+
+@media (min-width: 768px) {
+  .navbar-default {
+    background-color: #DCDCDC;
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-default .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .navbar-default.navbar-shrink {
+    background-color: #222222;
+    padding: 10px 0;
+  }
+  .navbar-default.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
+/*Navbar end*/
+
+.container{
+ padding-top: 150px !important;
+}
+
+/*Footer*/
+
+footer {
+  margin-top: 25px;
+  text-align: center;
+  border-top: 5px double black;
+  background-color:#DCDCDC;
+}
+
+.book-now{
+  font-size:30px;
+}
+
+.kiteboading-locations-footer{
+  font-size:20px;
+  text-transform: uppercase;
+}
+
+
+ul.social-buttons {
+  margin-bottom: 0;
+}
+
+li.phone{
+  margin-bottom: 10px;
+  height:50px;
+  width:100%;
+  font-size: 30px;
+}
+
+ul.social-buttons li a {
+  display: block;
+  background-color: #222222;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  padding-top: 15px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #C7C7C7;
+}
+
+@media (max-width: 767px) {
+
+  #welcome{
+    font-size:1.5em;
+  }
+
+}

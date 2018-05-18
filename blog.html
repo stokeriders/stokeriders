@@ -1,4 +1,4 @@
-n<html>
+<html>
 <head>
   <title>Stoke Riders - Chicago kitesurfing/kiteboarding,landkiting and snowkiting lessons</title>
   <meta charset="utf-8">
@@ -10,9 +10,12 @@ n<html>
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script> 
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="css/locations.css"> 
+  <link rel="stylesheet" type="text/css" href="css/meet.css"> 
+  <script type="text/javascript" src="js/meet.js"></script>
   
 </head>
 <body>
@@ -37,16 +40,16 @@ n<html>
           <li>
             <a href="kiteboardinggear">Gear</a>
           </li>
-          <li>
+          <li class = "active">
             <a href="stokeriders-aboutus">Meet the instructors</a>
           </li>
-          <li class = "active">
+          <li>
             <a href="kiteboardinglocations">Kiteboarding locations</a>
           </li>
           <li>
             <a href="stokeriders-contact">Contact</a>
           </li>
-          <li>
+           <li>
             <a class="book-now-nav" href="mailto:info@stokeriders.com?Subject=Interested%20in%20lessons!" target="_top">Book Now</a>
           </li>
         </ul>
@@ -54,53 +57,29 @@ n<html>
     </div>
   </nav>
 
-  <div id = "locations-container" class = "container">
-    <h1 id = "loco-info"> Wondering where we get our stoke on? We are mobile!  </h1>
-    <h3 id = "locations">Check out some of our favorite places to ride!</h3>
+  <div class="container">
+    <iframe class ="blogfeed" src ="https://stokeridersblog.wordpress.com/" width="100%" height="100%"> </iframe>
+</div>
 
-    <div class="row">
-      <div class="col-md-4 portfolio-item">
-        <a href = "locations/Michigan/michigankiteboardinglessonlocations">
-         <img class="img-responsive" src="img/stjoseph.jpg" alt="St. Joseph">
-         <h1 id = "locations-info">Michigan Kitesurfing Lessons</h3>
-         </a>
-       </div>
 
-       <div class="col-md-4 portfolio-item">
-        <a href = "locations/Indiana/indianakiteboardinglessonlocations">
-          <img class="img-responsive" src="img/michigancity.jpg" alt="Michigan City">
-          <h1 id = "locations-info">Indiana Kitesurfing Lessons</h3>
-          </a>
-        </div>
-
-        <div class="col-md-4 portfolio-item">
-          <a href = "locations/Chicago/chicagokiteboardinglessonlocations">
-            <img class="img-responsive" src="img/montrosebeach.jpg" alt="Montrose Beach">
-            <h1 id = "locations-info">Chicago Kitesurfing Lessons</h3>
-            </a>
-          </div>
+  <footer>
+    <div class="container" id="footer">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="book-now"> BOOK YOUR KITEBOARDING LESSON TODAY AT A BEACH NEAR YOU! </h1>
+          <h2 class="kiteboading-locations-footer">Chicago-Indiana-Michigan</h2>
+          <ul class="list-inline social-buttons">
+            <li class ="phone"><i class="fas fa-phone-square"></i>:312-952-0888</i></li>
+            <li><a href="mailto:info@stokeriders.com?Subject=Interested%20in%20lessons!" target="_top"><i class="fa fa-envelope"></i></a>
+            </li>
+            <li><a href="https://www.facebook.com/Stokeriders/"><i class="fa fa-facebook-square"></i></a>
+            </li> 
+          </ul>
         </div>
       </div>
     </div>
-
-
-    <footer>
-      <div class="container" id="footer">
-        <div class="row">
-          <div class="col-md-12">
-            <h1 class="book-now"> BOOK YOUR KITEBOARDING LESSON TODAY AT A BEACH NEAR YOU! </h1>
-            <h2 class="kiteboading-locations-footer">Chicago-Indiana-Michigan</h2>
-            <ul class="list-inline social-buttons">
-              <li class ="phone"><i class="fa fa-phone-square">:312-952-0888</i></li>
-              <li><a href="mailto:info@stokeriders.com?Subject=Interested%20in%20lessons!" target="_top"><i class="fa fa-envelope"></i></a>
-              </li>
-              <li><a href="https://www.facebook.com/Stokeriders/"><i class="fa fa-facebook-square"></i></a>
-              </li> 
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-  </body>
-  </html>
+  </footer>
+  <script> AOS.init(); </script>
+</div>
+</body>
+</html>
