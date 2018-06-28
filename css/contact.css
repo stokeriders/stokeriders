@@ -118,6 +118,15 @@ html {
   text-align: center;
 }
 
+#inthepostlink{
+  color:black;
+}
+
+#inthepostlink:hover{
+  color:black;
+}
+
+
 
 /*Footer*/
 
